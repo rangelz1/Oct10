@@ -37,23 +37,38 @@ body{
 .modal-content{
 	background-color: #f4f4f4;
 	margin: 20% auto;
-	padding: 20px;
 	width: 70%;
 	box-shadow: 0 5px 8px rgba(0,0,0,0.2),0 7px 20px rgba(0,0,0,0.7);
 	animation-name:modalopen;
 	animation-duration: 1s;
 }
 
-p{
-	font-size:1rem;
-	/*border:0.1rem black solid;*/
-	padding: 1rem;
+.modal-header h2, .modal-footer h3{
+	margin:0;
+}
+
+.modal-header{
+	background: coral;
+	padding:15px;
+	color: #fff; 
+}
+
+.modal-body{
+	padding: 10px 20px;
+}
+
+.modal-footer{
+	background: coral;
+	padding: 10px;
+	color: #fff; 
+	text-align: center;
 }
 
 .closeBtn{
 	color: #ccc;
 	float: right;
 	font-size: 30px;
+	color: #fff;
 }
 .closeBtn:hover,.closeBtn:focus{
 	color: #000;
