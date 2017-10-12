@@ -65,3 +65,24 @@ p{
 	from{opacity: 0}
 	to{opacity: 1}
 }
+
+.wrapper{
+	padding-top: 1em;
+	display: grid;
+	/* grid-template-columns:1fr 1fr 1fr; */
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap: 1em; 
+	/*grid-auto-rows: 100px; */
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper > div {
+	background: #eee;
+	padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+	background: #ddd;
+}
+
+/* minute: 13:21 */

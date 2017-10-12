@@ -85,7 +85,14 @@ body{
 	/* Grid */
 
 .wrapper{
+	padding-top: 10px;
 	display:grid;
+	grid-template-columns: 70% 30%;
+	/*
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+	*/
+	grid-gap: 1em;
 }	
 
 .wrapper > div {
