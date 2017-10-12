@@ -7,7 +7,7 @@ body{
 	font-size:17px;
 	line-height:1.6;
 }
-
+	/* Modal */
 .box{
 	/*font-size: 30px;*/
 }
@@ -79,4 +79,20 @@ body{
 @keyframes modalopen{
 	from{opacity: 0}
 	to{opacity: 1}
+}
+	/* End of Modal */
+
+	/* Grid */
+
+.wrapper{
+	display:grid;
+}	
+
+.wrapper > div {
+	background: #eee;
+	padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+	background: #ddd;
 }
